@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:oschina/resources/style.dart';
 import 'package:oschina/resources/texts.dart';
-import 'package:oschina/widget/home_widget.dart';
+import 'package:oschina/widget/main_home_widget.dart';
 
 
 void main() {
