@@ -26,9 +26,9 @@ class DataCollection {
       return BottomNavigationBarItem(
         title: Text(
           data.title,
-          style: TextStyle(
-            color: Colors.black,
-          ),
+//          style: TextStyle(
+//            color: Colors.black,
+//          ),
         ),
         icon: Image.asset(
           data.normalImage,
