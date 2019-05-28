@@ -17,6 +17,8 @@ ThemeData getDefThemeData() {
 //  chipTheme - ChipThemeData类型，用于渲染Chip的颜色和样式。
 //  dialogBackgroundColor - Color类型，Dialog元素的背景色。
 //  disabledColor - Color类型，用于Widget无效的颜色，无论任何状态。例如禁用复选框。
+
+
 //  dividerColor - Color类型，Dividers和PopupMenuDividers的颜色，也用于ListTiles中间，和DataTables的每行中间.
 //  errorColor - Color类型，用于输入验证错误的颜色，例如在TextField中。
 //  hashCode - int类型，这个对象的哈希值。
