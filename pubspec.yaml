@@ -53,6 +53,8 @@ flutter:
     - assets/images/nav/ic_nav_tweet_normal.png
     - assets/images/nav/ic_nav_action_normal.png
     - assets/images/my/my_head_bg.jpg
+    - assets/images/common/app_launch_logo.png
+    - assets/images/common/app_launch_bg.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

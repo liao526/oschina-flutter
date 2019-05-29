@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:oschina/common/util/common_utils.dart';
 import 'package:oschina/model/nav_data.dart'
     show initNavigationBarModel, NavigationBarModel;
@@ -65,6 +66,8 @@ class HomeWidgetState extends State<HomeWidget> {
   @override
   void initState() {
     super.initState();
+    SystemChrome.setSystemUIOverlayStyle(
+        SystemUiOverlayStyle(statusBarColor: ThemeColors.MAIN_COLOR));
     _dataCollection = DataCollection();
     _dataCollection.init();
     _currentPageIndex = 0;
